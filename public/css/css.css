@@ -1,0 +1,226 @@
+   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for header */
+  .header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add some padding at the top and bottom */
+  }
+  
+  .container {
+    width: 90%; /* Set width to 90% of the viewport */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust width of logo */
+  }
+  
+  .navigation ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .navigation ul li {
+    margin-right: 20px; /* Add some space between navigation items */
+  }
+  
+  .navigation ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  .cta-button {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #ff6600; /* Orange button color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from button */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .cta-button:hover {
+    background-color: #e65300; /* Darker orange on hover */
+  }
+  
+  /* Styles for hero section */
+  .hero {
+    background-color: #f2f2f2; /* Light background color */
+    padding: 100px 0; /* Add padding at the top and bottom */
+  }
+  
+  .hero .container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .hero-content {
+    flex: 1; /* Take up remaining space */
+    padding-right: 50px; /* Add some space to the right */
+  }
+  
+  .hero-content h1 {
+    font-size: 36px; /* Large font size for headline */
+    color: #333; /* Dark text color */
+  }
+  
+  .hero-content p {
+    font-size: 18px; /* Medium font size for subheading */
+    color: #666; /* Darker gray text color */
+    margin-bottom: 20px; /* Add some space at the bottom */
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+  }
+  
+  /* Styles for features section */
+  .features {
+    background-color: #fff; /* White background color */
+    padding: 80px 0; /* Add padding at the top and bottom */
+  }
+  
+  .features .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .feature {
+    flex: 1; /* Take up equal space */
+    text-align: center; /* Center text */
+  }
+  
+  .feature i {
+    font-size: 36px; /* Icon size */
+    color: #ff6600; /* Orange icon color */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  
+  .feature h2 {
+    font-size: 24px; /* Heading size */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Add space at the bottom */
+  }
+  
+  .feature p {
+    font-size: 18px; /* Paragraph size */
+    color: #666; /* Darker gray text color */
+  }
+  
+  .about {
+    background-color: #f2f2f2; /* Light background color */
+    padding: 80px 0; /* Add padding at the top and bottom */
+  }
+  
+  .about .container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .about-content {
+    flex: 1; /* Take up remaining space */
+    padding-right: 50px; /* Add some space to the right */
+  }
+  
+  .about-content h2 {
+    font-size: 36px; /* Large font size for heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  
+  .about-content p {
+    font-size: 18px; /* Medium font size for paragraphs */
+    color: #666; /* Darker gray text color */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  
+  .about-image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+  }
+  
+  /* Styles for testimonials section */
+  .testimonials {
+    background-color: #fff; /* White background color */
+    padding: 80px 0; /* Add padding at the top and bottom */
+  }
+  
+  .testimonials .container {
+    text-align: center; /* Center content */
+  }
+  
+  .testimonials h2 {
+    font-size: 36px; /* Large font size for heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 40px; /* Add space at the bottom */
+  }
+  
+  .testimonial {
+    max-width: 600px; /* Limit width of testimonials */
+    margin: 0 auto 40px; /* Center testimonials and add space at the bottom */
+  }
+  
+  .testimonial-content {
+    background-color: #f2f2f2; /* Light background color */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .testimonial-content p {
+    font-size: 18px; /* Medium font size for testimonials */
+    color: #666; /* Darker gray text color */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  
+  .testimonial-content cite {
+    font-style: italic; /* Italicize author name */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Styles for footer section */
+  .footer {
+    background-color: #f2f2f2; /* Light background color */
+    color: #333; /* White text color */
+  }
+  
+  .footer .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .footer-content h3 {
+    font-size: 24px; /* Medium font size for heading */
+    margin-bottom: 20px; /* Add space at the bottom */
+  }
+  
+  .footer-content p {
+    font-size: 18px; /* Medium font size for paragraphs */
+  
+  }
+  
+  .footer-social {
+    text-align: center; /* Center social icons */
+  }
+  
+  .social-icons a {
+    display: inline-block; /* Display icons inline */
+    font-size: 24px; /* Icon size */
+    color: #fff; /* White icon color */
+    margin: 0 10px; /* Add space between icons */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Center copyright text */
+  }
+  
+  .footer-bottom p {
+    font-size: 14px; /* Small font size for copyright text */
+    margin-left:42%;
+  }
