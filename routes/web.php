@@ -33,4 +33,13 @@ Route::controller(SampleController::class)->group(function(){
 
     Route::get('home', 'home')->name('home');
 
+    Route::get('aboutus', 'aboutus')->name('aboutus');
+
+    Route::get('cars', 'cars')->name('cars');
+
+    Route::get('services', 'services')->name('services');
+
+    Route::get('contact', 'contact')->name('contact');
+
+    Route::get('faq', 'faq')->name('faq');
 });

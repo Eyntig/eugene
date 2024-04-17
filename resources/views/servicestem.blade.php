@@ -66,7 +66,8 @@
             <li><a class="dropdown-item" href="contact">Contact</a></li>
             <li><a class="dropdown-item" href="faq">FAQ</a></li>
           </ul>
-          @guest
+        </li>
+        @guest
                          <li class="nav-item">
                              <a class="nav-link " href="{{ route('login') }}">Login</a>
             
@@ -80,11 +81,6 @@
                             </li>
                          @endguest
 
-
-
-
-
-        </li>
       </ul>
     </div>
   </div>

@@ -1,6 +1,6 @@
 @extends('htemplete')
 @section('title')
-Home
+HOME
 @endsection
 
 

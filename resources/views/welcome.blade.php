@@ -42,7 +42,8 @@
             <li><a class="dropdown-item" href="contact">Contact</a></li>
             <li><a class="dropdown-item" href="faq">FAQ</a></li>
           </ul>
-          @guest
+        </li>
+        @guest
                          <li class="nav-item">
                              <a class="nav-link " href="{{ route('login') }}">Login</a>
             
@@ -50,13 +51,12 @@
                              <a class="nav-link " href="{{ route('registration') }}">Register</a>
               
                          @else
-
+                         <span class="nav-item"><p class="nav-link">{{ auth()->user()->name }}</p></span>
                          <li class="nav-item">
                                 <a class="nav-link " href="{{ route('logout') }}">Logout</a>
                             </li>
                          @endguest
 
-        </li>
       </ul>
     </div>
   </div>
